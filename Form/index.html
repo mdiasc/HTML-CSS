@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <section class="container">
+        <header>Página de Registro</header>
+            <form action="#" class="form">
+                <div class="input-box">
+                    <label>Nome Completo</label>
+                    <input type="text" placeholder="Coloque seu nome Completo" required>
+                </div>
+                <div class="input-box">
+                    <label>Endereço de Email</label>
+                    <input type="text" placeholder="Coloque seu Email" required>
+                </div>
+                <div class="column">
+                    <div class="input-box">
+                        <label>Celular</label>
+                        <input type="number" placeholder="Coloque seu número de Celular" required>
+                    </div>
+                    <div class="input-box">
+                        <label>Data de nascimento</label>
+                        <input type="text" placeholder="Coloque sua data de nascimento">
+                    </div>
+                </div>
+                <div class="gender-box">
+                    <h3>Gender</h3>
+                    <div class="gender-option">
+                        <div class="gender">
+                            <input type="radio" id="check-male" name="gender"  checked />
+                            <label for="check">Masculino</label>
+                        </div>
+                        <div class="gender">
+                            <input type="radio" id="check-female" name="gender" />
+                            <label for="check">Feminino</label>
+                        </div>
+                        <div class="gender">
+                            <input type="radio" id="check-other" name="gender" />
+                            <label for="check">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-box address">
+                    <label>Endereço</label>
+                    <input type="text" placeholder="Coloque seu Endereço" required>
+                    <input type="text" placeholder="Complemento" required>
+                    <div class="column">
+                        <div class="select-box">
+                            <select>
+                                <option hidden>País</option>
+                                <option>Brasil</option>
+                                <option>Estados Unidos</option>
+                                <option>Inglaterra</option>
+                                <option>França</option>
+                            </select>
+                        </div>
+                        <input type="text" placeholder="Cidade" required>
+                    </div>
+                    <div class="column">
+                        <input type="text" placeholder="Região" required>
+                        <input type="number" placeholder="CEP" required>
+                    </div>
+                </div> 
+                <button>Submit</button>
+            </form>
+        </section>
+    </body>
+</html>
